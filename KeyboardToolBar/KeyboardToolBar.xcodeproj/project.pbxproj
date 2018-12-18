@@ -12,6 +12,7 @@
 		791FCD4B21C895B300E61A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791FCD4921C895B300E61A79 /* Main.storyboard */; };
 		791FCD4D21C895B500E61A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791FCD4C21C895B500E61A79 /* Assets.xcassets */; };
 		791FCD5021C895B500E61A79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791FCD4E21C895B500E61A79 /* LaunchScreen.storyboard */; };
+		79CAD20821C8CB6E0003494A /* DekoeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAD20721C8CB6E0003494A /* DekoeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		791FCD4C21C895B500E61A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		791FCD4F21C895B500E61A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		791FCD5121C895B500E61A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CAD20721C8CB6E0003494A /* DekoeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DekoeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				791FCD4C21C895B500E61A79 /* Assets.xcassets */,
 				791FCD4E21C895B500E61A79 /* LaunchScreen.storyboard */,
 				791FCD5121C895B500E61A79 /* Info.plist */,
+				79CAD20721C8CB6E0003494A /* DekoeViewController.swift */,
 			);
 			path = KeyboardToolBar;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CAD20821C8CB6E0003494A /* DekoeViewController.swift in Sources */,
 				791FCD4821C895B300E61A79 /* ViewController.swift in Sources */,
 				791FCD4621C895B300E61A79 /* AppDelegate.swift in Sources */,
 			);
